@@ -1,0 +1,10 @@
+Package: com.shepgoba.downloadbar13
+Name: DownloadBar13
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Show a progress bar for downloading apps instead!
+Maintainer: shepgoba
+Author: shepgoba
+Section: Tweaks
+Version: 1.0
+Installed-Size: 136
