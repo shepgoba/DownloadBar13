@@ -1,3 +1,6 @@
+#include <Foundation/Foundation.h>
+#include <UIKit/UIKit.h>
+
 #define PROGRESSBAR_INSET 7
 
 @interface SBIconProgressView : UIView
@@ -34,6 +37,7 @@
 		self.progressLabel = [[UILabel alloc] init];
 		self.progressLabel.font = [UIFont boldSystemFontOfSize:10];
 		self.progressLabel.textAlignment = NSTextAlignmentCenter;
+		self.progressLabel.textColor = UIColor.whiteColor;
 		self.progressLabel.text = @"0%%";
 
 		[self addSubview: self.progressBarBackground];

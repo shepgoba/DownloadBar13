@@ -8,6 +8,7 @@ export ARCHS = arm64 arm64e
 TWEAK_NAME = DownloadBar13
 
 DownloadBar13_FILES = Tweak.x
-DownloadBar13_CFLAGS = -O2 -fobjc-arc
+DownloadBar13_FRAMEWORKS = Foundation UIKit
+DownloadBar13_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
